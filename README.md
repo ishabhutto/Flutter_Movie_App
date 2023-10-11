@@ -27,17 +27,19 @@ To achieve this, we will implement the following key features:
    - Create a user-friendly interface for managing and viewing their list of favorite movies.
 
 ## Responsive User Interfaces
+
 Mobile:
+
 ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/9b4159f7-7856-40ee-b00e-f08d8028998f)
 ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/17418279-d082-4014-8b31-ed5710f82fa8)
 ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/abe3ad68-25d7-42d7-8fa2-13a11f86653a)
-![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/560af116-a98b-409e-a19e-35d1b8740369)
 ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/86362032-8978-429d-8145-bf216e2997fb)
 ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/345efe6b-3cc1-423a-9d8a-dc1a65b2cf4a)
 ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/d462c9cf-238f-494e-958b-137f23e8a9b0)
 ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/aa555824-34fd-4b1b-8e02-05f263e03a7e)
 
 Web:
+
 ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/c472352f-c3ea-4724-bbaa-0c5d3ce2d92c)
 ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/221c67f7-d9bd-4cdb-a593-52d0bf505e12)
 ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/0d07ae8a-da97-4b06-b563-7bb35a7e96ac)
