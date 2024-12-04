@@ -28,6 +28,7 @@ To achieve this, we will implement the following key features:
 
 ## Responsive User Interfaces
 
+
 ## Mobile:
 
 <div style="display: flex; flex-wrap: wrap;">
@@ -94,26 +95,33 @@ In the development of our movie app, we have leveraged a variety of APIs, packag
 **Issue 1: RenderCustomMultiChildLayoutBox object was given an infinite size during layout**
 
 - **Resolution:** The error occurred because a widget inside the layout was trying to occupy an infinite height, and the parent widget did not provide any constraints to limit the height. To fix this issue, constraints were set to limit the height, ensuring that the layout could be rendered correctly.
-- ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/9d583929-b632-4f05-81c8-bd95630df158)
-- ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/3d06f744-6c23-4031-905c-8d691be03711)
-- ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/494f3316-3408-434d-ab3a-ec1bc4d4b4ef)
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 10px;">
+    <img src="https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/9d583929-b632-4f05-81c8-bd95630df158" width="200" style="margin: 10px;">
+    <img src="https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/3d06f744-6c23-4031-905c-8d691be03711" width="200" style="margin: 10px;">
+    <img src="https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/494f3316-3408-434d-ab3a-ec1bc4d4b4ef" width="200" style="margin: 10px;">
+</div>
 
 **Issue 2: _TypeError (type 'int' is not a subtype of type 'double?')**
 
 - **Resolution:** This error occurred due to a type mismatch in the data received from APIs. The `vote_average` field in the JSON response was of type double, but the Movie class defined it as double?, a nullable double. To resolve this issue, the Movie class was updated to define the vote field as type double.
-- ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/30e01031-bd9e-4de6-83da-feeefd7f0f6d)
-- ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/8fe61413-a974-4045-9b11-d6403883f557)
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 10px;">
+    <img src="https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/30e01031-bd9e-4de6-83da-feeefd7f0f6d" width="200" style="margin: 10px;">
+    <img src="https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/8fe61413-a974-4045-9b11-d6403883f557" width="200" style="margin: 10px;">
+</div>
 
 **Issue 3: Firebase Access Issue**
 
 - **Resolution:** An access issue occurred when connecting Firebase to the movie app and selecting functionalities. The problem was related to the rules in Firebase, where read and write access was not granted. The rules were updated to allow the required access, resolving the issue.
-- ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/54404d51-e02d-412d-9c6a-605dc6d99d9f)
-- ![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/94efaee6-db61-40aa-9fa4-8a89a618b68b)
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 10px;">
+    <img src="https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/54404d51-e02d-412d-9c6a-605dc6d99d9f" width="200" style="margin: 10px;">
+    <img src="https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/94efaee6-db61-40aa-9fa4-8a89a618b68b" width="200" style="margin: 10px;">
+</div>
 
 **Issue 4: User Data Storage with Firebase**
 
 - **Resolution:** Initially, user data storage for favorites was problematic, as all users were getting the same favorite collection. The solution was to integrate unique user identification from Firebase with each user's collection, ensuring that each user's data was stored separately. The same approach was used for retrieving and deleting favorites.
-![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/fe0f317b-d085-4d43-a6f4-a141905208d5)
-![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/862f5c8b-1830-456b-9ebe-32c709da302f)
-![image](https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/f9cc349a-feeb-431a-8f24-d0e8fd53552d)
-
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 10px;">
+    <img src="https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/fe0f317b-d085-4d43-a6f4-a141905208d5" width="200" style="margin: 10px;">
+    <img src="https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/862f5c8b-1830-456b-9ebe-32c709da302f" width="200" style="margin: 10px;">
+    <img src="https://github.com/ishabhutto/Flutter_Movie_App/assets/90207282/f9cc349a-feeb-431a-8f24-d0e8fd53552d" width="200" style="margin: 10px;">
+</div>
